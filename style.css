@@ -1,0 +1,140 @@
+/**************** BODY ***************/
+
+body {
+	background-color: #dedede;
+	margin: 0;
+}
+
+/************* Navigation ************/
+
+header {
+	background-color: gray;
+	margin-top: -16px;
+	width: 100%;
+	height: 60px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	padding-right: 25px;
+	list-style: none;
+	padding-top: 19px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'courgette';
+}
+
+/************* TOP ***************/
+
+.top img{
+	width: 250px;
+	height: 250px;
+	border-radius: 1000px;
+	align-items: center;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.top img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+section h2 {
+	font-family: 'courgette';
+	text-align: center;
+	font-size: 35px;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+figcaption p:first-child {
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+figcaption p {
+	text-align: center;
+	font-family: 'roboto';
+	margin-bottom: 50px;
+}
+
+figcaption:last-child p{
+	line-height: 2;
+	font-family: 'roboto';
+}
+
+/************************ Between ***************************/
+
+.fa-arrow-alt-circle-down {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	color:  gray;
+}
+
+/****************** Section Project ********************/
+
+.project img {
+	width: 100%;
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #5ACDD3;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.project img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/***************************** FOOTER ******************************/
+
+footer {
+	background-color: gray;
+	width: 100%;
+	height: 65px;
+
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 6px;	
+}
+
+footer li {
+	list-style: none;
+	padding-right: 25px;
+	margin-top: 10px;
+}
+
+.fa-linkedin {
+	color: #0077B5;
+}
+
+.fa-github {
+	color: black;
+}
+
+.fa-twitter {
+	color: #1DA1F2;
+}
+
